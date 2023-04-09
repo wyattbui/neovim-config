@@ -1,51 +1,10 @@
-<div align="center">
-<p>
-    <a>
-      <img alt="Linux" src="https://img.shields.io/badge/Linux-%23.svg?style=flat-square&logo=linux&color=FCC624&logoColor=black" />
-    </a>
-    <a>
-      <img alt="macOS" src="https://img.shields.io/badge/macOS-%23.svg?style=flat-square&logo=apple&color=000000&logoColor=white" />
-    </a>
-    <a>
-      <img alt="Windows" src="https://img.shields.io/badge/Windows-%23.svg?style=flat-square&logo=windows&color=0078D6&logoColor=white" />
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/releases/latest">
-      <img alt="Latest release" src="https://img.shields.io/github/v/release/jdhao/nvim-config" />
-    </a>
-    <a href="https://github.com/neovim/neovim/releases/tag/stable">
-      <img src="https://img.shields.io/badge/Neovim-0.8.1-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=green" alt="Neovim minimum version"/>
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/search?l=vim-script">
-      <img src="https://img.shields.io/github/languages/top/jdhao/nvim-config" alt="Top languages"/>
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/graphs/commit-activity">
-      <img src="https://img.shields.io/github/commit-activity/m/jdhao/nvim-config?style=flat-square" />
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/releases/tag/v0.8.1">
-      <img src="https://img.shields.io/github/commits-since/jdhao/nvim-config/v0.8.1?style=flat-square" />
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/jdhao/nvim-config?style=flat-square" />
-    </a>
-    <a>
-      <img src="https://img.shields.io/github/repo-size/jdhao/nvim-config?style=flat-square" />
-    </a>
-    <a href="https://github.com/jdhao/nvim-config/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/jdhao/nvim-config?style=flat-square&logo=GNU&label=License" alt="License"/>
-    </a>
-</p>
-</div>
 
 # Introduction
+Source fork from: [https://github.com/jdhao/nvim-config](https://github.com/jdhao/nvim-config)
 
-This repo hosts my Nvim configuration for Linux, macOS, and Windows.
+This repo hosts my Nvim configuration for Linux by Lua
 `init.lua` is the config entry point for terminal Nvim,
 and `ginit.vim` is the additional config file for [GUI client of Nvim](https://github.com/neovim/neovim/wiki/Related-projects#gui).
-
-My configurations are heavily documented to make it as clear as possible.
-While you can clone the whole repository and use it, it is not recommended though.
-Good configurations are personal. Everyone should have his or her unique config file.
-You are encouraged to copy from this repo the part you want and add it to your own config.
 
 To reduce the possibility of breakage, **this config is only maintained for [the latest nvim stable release](https://github.com/neovim/neovim/releases/tag/stable).
 No effort is spent on maintaining backward compatibility.**
@@ -86,59 +45,7 @@ and how to set up on different platforms (Linux, macOS, and Windows).
 + Undo management via [vim-mundo](https://github.com/simnalamburt/vim-mundo)
 + ......
 
-# UI Demo
 
-For more UI demos, check [here](https://github.com/jdhao/nvim-config/issues/15).
-
-## Start screen with dashboard-nvim
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/183256752-fb23b215-a6b8-4646-beed-9999f52d53f1.png" width="800">
-</p>
-
-## File fuzzy finding using LeaderF
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/183257017-2d9d7605-3c4b-4e1d-8955-30998f9b6f28.gif" width="800">
-</p>
-
-## Code autocompletion with nvim-cmp
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/128590006-0fc1451f-fac1-49b2-bb95-8aba21bfa44e.gif" width="800">
-</p>
-
-## Git add, commit and push via fugitive.vim
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/128590833-aaa05d53-19ef-441d-a5a9-ba1bbd3936c1.gif" width="800">
-</p>
-
-## Command-line autocompletion with wilder.nvim
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/147677787-8e5d229a-a16a-420e-98f5-88f2a1be84a2.gif" width="800">
-</p>
-
-## Tags
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/128589584-4036a1a2-2e0a-4bbe-8aaf-ff8b91644648.jpg" width="800">
-</p>
-
-## Cursor jump via hop.nvim
-
-Go to a string starting with `se`
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/139459219-8a7e6ac4-1d24-4008-a370-b56773d7cb85.gif" width="800">
-</p>
-
-## GUI-style notification with nvim-notify
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/16662357/128589873-aadb8264-1098-4834-9876-fa66a309be05.gif" width="800">
-</p>
 
 # Shortcuts
 
@@ -216,3 +123,57 @@ You may also be interested in my posts on configuring Nvim:
 + [Config nvim on Linux for Python development](https://jdhao.github.io/2018/12/24/centos_nvim_install_use_guide_en/)
 + [Nvim config on Windows 10](https://jdhao.github.io/2018/11/15/neovim_configuration_windows/)
 + [Nvim-qt config on Windows 10](https://jdhao.github.io/2019/01/17/nvim_qt_settings_on_windows/)
+
+# UI Demo
+
+For more UI demos, check [here](https://github.com/jdhao/nvim-config/issues/15).
+
+## Start screen with dashboard-nvim
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/183256752-fb23b215-a6b8-4646-beed-9999f52d53f1.png" width="800">
+</p>
+
+## File fuzzy finding using LeaderF
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/183257017-2d9d7605-3c4b-4e1d-8955-30998f9b6f28.gif" width="800">
+</p>
+
+## Code autocompletion with nvim-cmp
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/128590006-0fc1451f-fac1-49b2-bb95-8aba21bfa44e.gif" width="800">
+</p>
+
+## Git add, commit and push via fugitive.vim
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/128590833-aaa05d53-19ef-441d-a5a9-ba1bbd3936c1.gif" width="800">
+</p>
+
+## Command-line autocompletion with wilder.nvim
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/147677787-8e5d229a-a16a-420e-98f5-88f2a1be84a2.gif" width="800">
+</p>
+
+## Tags
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/128589584-4036a1a2-2e0a-4bbe-8aaf-ff8b91644648.jpg" width="800">
+</p>
+
+## Cursor jump via hop.nvim
+
+Go to a string starting with `se`
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/139459219-8a7e6ac4-1d24-4008-a370-b56773d7cb85.gif" width="800">
+</p>
+
+## GUI-style notification with nvim-notify
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16662357/128589873-aadb8264-1098-4834-9876-fa66a309be05.gif" width="800">
+</p>
